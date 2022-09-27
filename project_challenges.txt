@@ -1,0 +1,28 @@
+1.At first we tried with Rating column, But it reduced the accuracy score. So, we decided to remove this column as it was irrelevant
+
+2.The data was imbalanced and totally bias towards positive statements.
+  We check this through y.value_counts() and the output we got was below mentioned:-
+
+ sentiment
+ 1           19161
+-1             997
+ 0             333
+dtype: int64        
+
+       Hence we decided to balance the dataset after train-test split, using a technique called 
+       SMOTE. and we got the value:-
+
+sentiment
+-1           12811
+ 0           12811
+ 1           12811
+dtype: int64
+
+
+  
+3.As our data was imbalanced, after applying SMOTE and building model,it seems overfit.
+      To overcome this issue we applied (StratifiedKFold cross-validation) technique on our
+       imbalanced dataset. It helps to determine the quality of the model.
+
+          
+4.We use afinn lexicon method over BERT as it is much faster as compared with BERT.
