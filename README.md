@@ -4,7 +4,8 @@
 
 - Understanding of how online reviews have enormous power to effect hotel industries
 
--Also what are the amenities that travelers considered             while selecting a hotel through Machine Learning.![image](https://user-images.githubusercontent.com/77741918/200171436-3ddc95b9-0185-4b5c-a935-5e15082f4067.png)
+-Also what are the amenities that travelers considered while selecting a hotel through Machine Learning.
+
 
 We had gone through some EDA  to get better insights from the dataset through an intuitive analysis,to decide which analysis are expected to be performed, based on the dataset we have in our hand.
 We have enough observations for training and testing.
